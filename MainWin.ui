@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>883</width>
+    <width>970</width>
     <height>521</height>
    </rect>
   </property>
@@ -14,30 +14,30 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushBUTT">
+   <widget class="QPushButton" name="recVideo">
     <property name="geometry">
      <rect>
-      <x>730</x>
-      <y>50</y>
-      <width>131</width>
-      <height>51</height>
+      <x>670</x>
+      <y>80</y>
+      <width>161</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Начать / Остановить запись</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="BrowBut">
     <property name="geometry">
      <rect>
-      <x>730</x>
-      <y>120</y>
-      <width>131</width>
-      <height>51</height>
+      <x>670</x>
+      <y>40</y>
+      <width>161</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Указать путь для сохранения</string>
     </property>
    </widget>
    <widget class="QLabel" name="Video">
@@ -48,6 +48,58 @@
       <width>640</width>
       <height>480</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(230, 230, 230);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="linebrow">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>10</y>
+      <width>291</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelREC">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>150</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 4);</string>
+    </property>
+    <property name="text">
+     <string>REC</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="timerLine">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>230</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string/>
