@@ -19,7 +19,7 @@
      <rect>
       <x>670</x>
       <y>80</y>
-      <width>161</width>
+      <width>191</width>
       <height>31</height>
      </rect>
     </property>
@@ -32,7 +32,7 @@
      <rect>
       <x>670</x>
       <y>40</y>
-      <width>161</width>
+      <width>191</width>
       <height>31</height>
      </rect>
     </property>
@@ -77,7 +77,7 @@
      <rect>
       <x>680</x>
       <y>150</y>
-      <width>71</width>
+      <width>91</width>
       <height>51</height>
      </rect>
     </property>
@@ -93,7 +93,7 @@ color: rgb(255, 0, 4);</string>
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>230</y>
+      <y>380</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -103,6 +103,64 @@ color: rgb(255, 0, 4);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>220</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Текст на видео</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="VideoText">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>250</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;MS Sans Serif&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSlider" name="PozText">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>330</y>
+      <width>221</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="tickInterval">
+     <number>320</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>290</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Позиция текста</string>
     </property>
    </widget>
   </widget>

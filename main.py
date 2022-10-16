@@ -76,6 +76,7 @@ class MainWindow(QMainWindow):
             return False
 
         frame = cv2.flip(frame, 1)
+        cv2.putText(frame, self.VideoText.text(), (int((self.width/100)*(self.PozText.value()+1)), 420), cv2.FONT_HERSHEY_COMPLEX, 1,(0,0,0),2, cv2.LINE_AA)
         if self.flagrec:
             self.out.write(frame)
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
